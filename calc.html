@@ -195,7 +195,7 @@
             }
         }
 
-        const timeIsYear = ( depositeTerm ) => depositeTerm.includes('year')
+        const timeIsYear = ( depositeTerm ) => depositeTerm.includes('год') || depositeTerm.includes('года')
 
         const calculateSumm = (depositeTerm, depositeSum) => {
             const depositeParamsStrings = depositeTerm.split('-')
